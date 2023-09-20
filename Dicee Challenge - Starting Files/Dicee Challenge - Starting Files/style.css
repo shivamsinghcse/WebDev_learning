@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(61, 59, 59);
+    color: rgb(0, 255, 179);
+}
+h1 {
+  font-family: "Lobster", cursive;
+  text-decoration: none;
+  font-size: 100px;
+  color: rgb(0, 255, 179);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 60px;
+}
+.maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    gap: 10px;
+}
+.playercontainer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.playerid{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+.imgcontainer{
+    text-align: center;
+}
+.diceimage{
+    width: 200px;
+}
